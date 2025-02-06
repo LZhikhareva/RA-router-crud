@@ -1,0 +1,106 @@
+#root {
+  margin: 0 auto;
+}
+
+.post-item {
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.add-click {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.additional {
+  border: 1px solid rgb(67, 67, 255);
+  border-radius: 5px;
+  padding: 5px;
+  width: fit-content;
+  cursor: pointer;
+  background-color: rgb(67, 67, 255);
+  color: white;
+}
+
+.add_post {
+  padding: 5px;
+  border: 1px solid rgb(67, 67, 255);
+  border-radius: 5px;
+  background-color: rgb(67, 67, 255);
+  color: white;
+}
+
+.new-post-item {
+  position: relative;
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-post-item .add_post {
+  margin-top: 15px;
+  width: fit-content;
+}
+
+.close {
+  position: absolute;
+  top: -25px;
+  right: -20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.actions-btn {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.edit {
+  background-color: green;
+  padding: 9.6px 19.2px;
+  text-align: center;
+}
+
+.delete {
+  background-color: red;
+  margin-left: 10px;
+}
+
+
+.edit_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.edit-form {
+  width: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
